@@ -1,7 +1,7 @@
 var playlist = {
   artistName:songTitle,
   ChrisBrown:"Run it!",
-  TreySongz:"Gotta Go!"
+  TreySongz:"Gotta Go!",
 };
 
 // objects updatePlaylist(playlist, artistName, songTitle) adds the `artistName: songTitle` key-value pair to `playlist`:
