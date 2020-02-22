@@ -1,5 +1,4 @@
 var playlist = {
-  artistName:"songTitle",
   ChrisBrown:"Run it!",
   TreySongz:"Gotta Go!",
 };
