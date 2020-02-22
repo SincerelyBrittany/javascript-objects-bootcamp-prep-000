@@ -6,8 +6,9 @@ var playlist = {
 
 // objects updatePlaylist(playlist, artistName, songTitle) adds the `artistName: songTitle` key-value pair to `playlist`:
 
-function updatePlaylist(artistName, songTitle) {
-  return Object.assign ({}, { [artistName]: songTitle })
+function updatePlaylist(playlist, artistName, songTitle) {
+  Object.assign ({}, { [artistName]: songTitle })
+  return 
 }
 
 function removeFromPlaylist(playlist, artistName) {
