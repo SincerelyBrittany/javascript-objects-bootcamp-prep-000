@@ -8,3 +8,7 @@ var playlist = {
 function updatePlaylist(artistName, songTitle) {
   return Object.assign ({}, { [artistName]: songTitle })
 }
+
+function updatePlaylist(artistName, songTitle) {
+  return Object.assign ({}, { [artistName]: songTitle })
+}
